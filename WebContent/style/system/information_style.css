@@ -1,0 +1,44 @@
+body .main {
+	padding: 10px 50px 50px 50px;
+	font-family: Arial, "宋体";
+	color: #666;
+}
+.center {} .information {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0 20px 5px;
+	margin-bottom: 15px;
+}
+.infor td {
+	height: 50px;
+}
+.infor table input {
+	height: 30px;
+	width: 300px;
+	border: 1px solid #ddd;
+}
+.infor select {
+	width: 300px;
+	height: 30px;
+	font-size: 15px;
+}
+.infor select option {
+	padding: 10px;
+}
+.remind {
+	color: #999;
+	font-size: 12px;
+	margin-left: 20px;
+}
+.button {
+	padding: 14px 110px;
+	background-color: #3F89EC;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #fff;
+	margin: 20px 85px;
+}
+.show{
+	font-size: 14px;
+	margin-left: 8px;
+}

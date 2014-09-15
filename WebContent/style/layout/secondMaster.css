@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/* CSS Document */ /*-----------通用样式-----------*/
+body {
+	font-size: 12px;
+	font-family: "宋体", arial;
+	line-height: 24px;
+	padding: 0;
+	margin: 0 auto;
+	height: 100%;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+div,p,input,ul,li,p,h1,h2,h3,dl,dt,dd {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+input,select {
+	vertical-align: absmiddle;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #3E3E3E;
+}
+
+a:visited {
+	color: #210404;
+}
+
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+/*--------------menu样式-------------------*/ /*左侧menu*/
+#wrapper {
+	width: 199px;
+	border: none;
+}
+
+.left_xz {
+	background: url(../../images/layout/lbg.jpg) no-repeat;
+	height: 40px;
+	font-size: 14px;
+	font-family: : "黑体";
+	font-weight: bold;
+	color: #3778bc;
+	line-height: 40px;
+	text-align: center;
+}
+
+.leftmenu {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.leftmenu li {
+	list-style: none;
+}
+
+.leftmenu li>a {
+	display: block;
+	width: 199px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	color: #476074;
+	text-decoration: none;
+	background: url(../../images/layout/menubg.jpg) no-repeat;
+}
+
+.leftmenu>li:hover>a,.leftmenu>li:target>a {
+	width: 199px;
+	height: 35px;
+	color: #476074;
+	background: url(../../images/layout/menubg.jpg) no-repeat;
+}
+
+.leftmenu>li>a.select {
+	color: #FFF;
+	font-weight: bolder;
+	background: url(../../images/layout/menuselebg.jpg) repeat-x;
+	padding-left: 30px;
+}
+
+.sub-menu li a {
+	padding-left: 0px;
+	width: 199px;
+	color: #797979;
+	text-align: center;
+	background: url(../../images/layout/bt.png) center bottom no-repeat;
+}
+
+.sub-menu li:hover a {
+	background: url(../../images/layout/bt.png) center bottom no-repeat;
+}
+
+.leftmenu li>.sub-menu {
+	display: none;
+}
+
+.leftmenu li:target>.sub-menu {
+	display: block;
+}
+
+.sub-menu li .selectli {
+	color: #3778bc;
+	font-weight: bolder;
+	background: url(../../images/layout/bt.png) center bottom no-repeat;
+}
+
+/*-----------主体样式-----------*/
+.center {
+	border: none;
+	margin: 0px;
+	height: 100%;
+	width: 100%
+}

@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+/* ============================== RESET/NORMALIZE =========================== */
+body {
+	position: relative;
+	background: #fff;
+	color: #444;
+	letter-spacing: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 13px;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	background-color: #e6e6e6;
+}
+
+html,body {
+	height: 100%;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,th,td
+	{
+	margin: 0;
+	padding: 0;
+	direction: ltr;
+}
+
+/*----------------------------- Misc ----------------------------*/
+.clear {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.hidden-wrap {
+	overflow: hidden;
+}
+
+.visible {
+	visibility: visible;
+	opacity: 1 !important;
+}
+
+/*--------------------------- Substrate --------------------------*/
+.substrate {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+.substrate img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* =========================== SLIDERS =========================== */
+.themex-slider {
+	position: relative;
+	overflow: hidden;
+}
+
+.themex-slider>ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.themex-slider>ul>li {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.themex-slider>ul>li.current,.themex-slider>ul>li:first-child {
+	z-index: 1;
+}
+
+.themex-slider>ul>li>img,.themex-slider>ul>li>a>img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/*-----------不错可以借鉴----------*/
+.themex-slider .arrow {
+	position: absolute;
+	top: 50%;
+	z-index: 100;
+	margin-top: -12px;
+	width: 13px;
+	height: 23px;
+	background: url(../../images/main/main_slider_arrows.png) -13px 0
+		no-repeat;
+	cursor: pointer;
+}
+
+.themex-slider .arrow-left {
+	left: 24px;
+}
+
+.themex-slider .arrow-right {
+	right: 24px;
+	background-position: 0 0;
+}
+
+/*---------------------------- Parallax Slider ----------------------------*/
+.parallax-slider {
+	overflow: hidden;
+	color: #fff;
+}
+
+.parallax-slider .substrate {
+	width: 130%;
+}
+
+.parallax-slider>ul {
+	overflow: hidden;
+	width: 10000%;
+	opacity: 0;
+}
+
+.parallax-slider>ul>li {
+	display: block;
+	float: left;
+}
+
+.parallax-slider img.aligncenter,.parallax-slider img.alignnone {
+	display: block;
+}
+
+/*--------------------自定义新增----------------------------*/
+body .site {
+	margin: 0 auto;
+	margin-top: 48px;
+	margin-bottom: 48px;
+	padding: 0 24px;
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	background-color: #fff;
+	max-width: 960px;
+	overflow: hidden;
+	border-radius: 2px;
+}
+
+.theH {
+	height: 300px;
+	border: 0px solid;
+}
+
+.t {
+	width: 300px;
+	border: 0px solid;
+	float: right;
+	overflow: hidden;
+	text-align: center;
+	margin-right: 50px;
+}
+
+.header {
+	border: 0px solid green;
+	height: 50px;
+	margin: 15px 0;
+	background-color: #8bb995;
+}
+
+/*下面是最简单的实现*/
+.mok {
+	position: relative;
+	width: 402px;
+	overflow: hidden;
+	cursor: pointer;
+	float: left;
+	margin: 0 25px;
+}
+
+.pic {
+	width: 400px;
+	height: 200px;
+}
+
+.art {
+	background-color: #ccc;
+	position: absolute;
+	width: inherit; /*继承的意思，也就是使用和上一级父元素同样的width*/
+	transition: all 0.4s ease-out 0s;
+	height: 200px;
+	bottom: -200px;
+	opacity: 0.5;
+}
+
+.mok:hover .art {
+	bottom: 0; /**/
+}
+
+#footer {
+	padding: 30px 0;
+	background-color: #b9b8b8;
+	text-align: center;
+	color:#fff;
+}

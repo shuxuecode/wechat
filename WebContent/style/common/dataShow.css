@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+	background-color: #CCC;
+}
+
+img {
+	border: none;
+}
+
+/*-------------头部样式-------------*/
+.sub {
+	width: 100%;
+	height: 30px;
+	background: #fdfdfd;
+	clear: both;
+	margin: 0 auto;
+	border-top: 1px solid #cdcdcd;
+}
+
+.sub_nav {
+	float: left;
+	background: #fff;
+	text-align: center;
+	font-size: 14px;
+}
+
+.sub_nav td {
+	border-right: 1px #CCC solid;
+}
+
+.sub_nav a:link,.sub_nav a:visited {
+	display: block;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #444444;
+}
+
+.sub_nav a:hover {
+	background: #3778bc;
+	text-decoration: none;
+	color: #fff;
+}
+
+/*-----------新增弹出层样式--------------*/
+.tab {
+	text-align: center;
+	height: auto;
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+.tab td {
+	padding-right: 20px;
+	padding-top: 7px;
+}
+
+.tab textarea {
+	width: 400px;
+	height: 100px;
+}
+
+.tab input {
+	width: 150px;
+}
+
+.tab select {
+	width: 150px;
+}
+
+/*----------搜索-------------*/
+.search_div {
+width:300px;
+height:50px;
+border:1px solid blue;
+position: absolute;
+left:0;
+top:30px;
+
+backface-visibility:hidden;
+-webkit-backface-visibility:hidden;	
+-moz-backface-visibility:hidden; 	
+-ms-backface-visibility:hidden; 	
+-o-backface-visibility:hidden; 
+
+transform: rotateX(-90deg);
+-webkit-transform: rotateX(-90deg);
+-moz-transform: rotateX(-90deg);
+-ms-transform: rotateX(-90deg);
+-o-transform: rotateX(-90deg);
+
+transition: all 0.3s ease-in 0s;
+-webkit-transition: all 0.3s ease-in 0s; /* Chrome 和 Safari */
+-moz-transition: all 0.3s ease-in 0s; /* Firefox */
+-ms-transition: all 0.3s ease-in 0s; /* Internet Explorer */
+-o-transition: all 0.3s ease-in 0s; /*Opera*/
+}
+
+.search_btn:hover .search_div {
+display: block;
+transform: rotateX(0deg);
+-webkit-transform: rotateX(0deg);
+-moz-transform: rotateX(0deg);
+-ms-transform: rotateX(0deg);
+-o-transform: rotateX(0deg);
+}
+
+
+/*----------遮罩层------------*/
+.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: #eee;
+	z-index: 99999;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity = 80);
+}
+

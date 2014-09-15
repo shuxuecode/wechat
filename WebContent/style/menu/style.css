@@ -1,0 +1,242 @@
+#iphone {
+	padding: 138px 160px 150px 46px;
+	position: relative;
+	margin-left: 100px;
+	margin-right: auto;
+	background-image: url("../../images/menu/iphone.png");
+	background-repeat: no-repeat;
+	float: left;
+}
+
+#iphone-view {
+	height: 318px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+#add-iphone-btn {
+	float: left;
+	width: 255px;
+	height: 47px;
+	font-family: 'Microsoft Yahei';
+}
+
+#add-iphone-btn .allMenus {
+	margin: 0px;
+	padding: 0px;
+}
+
+#add-iphone-btn li {
+	float: left;
+	width: 85px;
+	height: 46px;
+	text-align: center;
+	line-height: 47px;
+	display: inline;
+	color: #333;
+	cursor: pointer;
+	position: relative;
+}
+
+a,a:link,a:visited,a:hover,a:active {
+	font-weight: normal;
+	font-size: 12px;
+	text-decoration: none;
+	color: #000;
+}
+
+#add-iphone-btn dl {
+	position: absolute;
+	left: 3px;
+	bottom: 32px;
+	width: 76px;
+}
+
+/*  删除按钮
+#add-iphone-btn li .delete {
+position: absolute;
+width: 7px;
+height: 7px;
+right: 5px;
+top: 5px;
+}
+*/
+#add-iphone-btn dl dd.add,.addMain {
+	background-color: #56AF45;
+	border-top-style: solid;
+}
+
+.add a {
+	color: white;
+}
+
+#add-iphone-btn dl dd {
+	background-color: #EDEDED;
+	border-image: none;
+	border: 1px solid #BABABA;
+	border-style: none solid solid;
+	color: #333333;
+	float: left;
+	height: 39px;
+	line-height: 39px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	width: 76px;
+}
+
+.secondMenu dd {
+	margin-left: 0;
+}
+
+.shu {
+	height: 45px;
+}
+
+.popover-title {
+	margin: 0;
+	padding: 8px 14px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 18px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ebebeb;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.alert {
+	margin-bottom: 10px;
+}
+
+.alert-info {
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	color: #3a87ad;
+}
+
+.alert {
+	padding: 8px 35px 8px 14px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	border: 1px solid #fbeed5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.popover-static {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+	box-shadow: none;
+	z-index: 100;
+}
+
+.popover-title {
+	margin: 0;
+	padding: 8px 14px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 18px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #ebebeb;
+	-webkit-border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.popover-content {
+	padding: 9px 14px;
+}
+
+.btn-success:hover,.btn-success:active,.btn-success.active,.btn-success.disabled,.btn-success[disabled]
+	{
+	color: #ffffff;
+	background-color: #51a351;
+}
+
+.alert .close {
+	position: relative;
+	top: -2px;
+	right: -21px;
+	line-height: 20px;
+}
+
+button.close {
+	padding: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	-webkit-appearance: none;
+}
+
+.close {
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000000;
+	text-shadow: 0 1px 0 #ffffff;
+	opacity: 0.2;
+	filter: alpha(opacity = 20);
+}
+
+strong {
+	font-weight: bold;
+}
+
+.alert-info {
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	color: #3a87ad;
+	font-size: 12px;
+}
+
+.btn-success {
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-image: linear-gradient(to bottom, #62c462, #51a351);
+	background-repeat: repeat-x;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid : DXImageTransform.Microsoft.gradient ( enabled =   false
+		);
+}
+
+.btn-danger {
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+	background-repeat: repeat-x;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid : DXImageTransform.Microsoft.gradient ( enabled =   false
+		);
+}
+
+.btn-danger:hover,.btn-danger:active,.btn-danger.active,.btn-danger.disabled,.btn-danger[disabled]
+	{
+	color: #ffffff;
+	background-color: #bd362f;
+}
+
+.btn {
+	line-height: 20px;
+	border: 1px solid #bbbbbb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+.btn_left {
+	line-height: 50px;
+	margin-left: 150px;
+}
+
+.btn_right {
+	line-height: 50px;
+	margin-right: 150px;
+}
+
+.popover {
+	max-width: 100% !important;
+}

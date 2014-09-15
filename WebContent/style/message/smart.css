@@ -1,0 +1,130 @@
+body {
+	font-family: arial;
+	color: #666666;
+}
+.main {
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	padding: 20px 50px;
+}
+.zhineng {
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0px;
+}
+.tab {
+	padding: 10px 10px;
+}
+table th {
+	text-align: right;
+	width: 200px;
+	height: 50px;
+	padding-right: 10px;
+}
+.okbtn {
+	border-top: 1px solid #CCCCCC;
+	text-align: center;
+	padding-top: 20px;
+}
+.okbtn button {
+	font-size: 16px;
+	background-color: #82a06a;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 8px 50px;
+}
+.switch {
+	margin-left: 50px;
+}
+.switch label {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: block;
+}
+.switch input {
+	opacity: 0;
+	z-index: 100;
+	position: absolute;
+	width: 50px;
+	cursor: pointer;
+}
+/* DEMO 3 */
+
+.switch.demo3 {
+	width: 50px;
+	height: 15px;
+}
+.switch.demo3 label {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #CD433D;
+	border-radius: 40px;
+}
+.switch.demo3 label:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: -8px;
+	right: -8px;
+	bottom: -8px;
+	left: -8px;
+	border-radius: inherit;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+.switch.demo3 label:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: -18px;
+	right: -18px;
+	bottom: -18px;
+	left: -18px;
+	border-radius: inherit;
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-ms-filter: blur(1px);
+	-o-filter: blur(1px);
+	filter: blur(1px);
+}
+.switch.demo3 label i {
+	display: block;
+	height: 100%;
+	width: 60%;
+	border-radius: inherit;
+	background: silver;
+	position: absolute;
+	z-index: 2;
+	right: 40%;
+	top: 0;
+	background: #CCCCCC;
+	box-shadow: inset 0 1px 0 white, 0 0 8px rgba(0, 0, 0, 0.3), 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.switch.demo3 label i:after {
+	content: "";
+	position: absolute;
+	left: 15%;
+	top: 25%;
+	width: 70%;
+	height: 50%;
+}
+.switch.demo3 label i:before {
+	content: "";
+	color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	right: -50%;
+}
+.switch.demo3 input:checked ~ label {
+	background: #5AB55A;
+}
+.switch.demo3 input:checked ~ label i {
+	right: -1%;
+}
+.switch.demo3 input:checked ~ label i:before {
+	content: "";
+	right: 115%;
+	color: #5AB55A;
+}
